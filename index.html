@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Side of the Force</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <header class="header">
+        <h1 class="title">
+            <span class="prompt-text">PROMPT</span>
+            <span class="side-text">SIDE</span>
+            <span class="of-text">OF THE</span>
+            <span class="force-text">FORCE</span>
+        </h1>
+        <p class="subtitle">Choose your destiny: Let the Sith roast your prompts, or seek wisdom from the Jedi</p>
+    </header>
+
+    <main class="main-content">
+        <div class="prompt-section">
+            <div class="input-container">
+                <label for="prompt-input" class="input-label">Enter your prompt, young Padawan:</label>
+                <textarea 
+                    id="prompt-input" 
+                    class="prompt-input" 
+                    placeholder="A long time ago in a galaxy far, far away... your prompt begins here"
+                    rows="4"
+                    maxlength="1000"
+                ></textarea>
+                <div class="char-counter">
+                    <span id="char-count">0</span>/1000
+                </div>
+            </div>
+            
+            <button id="submit-btn" class="submit-btn" disabled>
+                <span class="btn-text">Execute Order... I mean, Submit</span>
+                <div class="lightsaber-glow"></div>
+            </button>
+        </div>
+
+        <div class="results-section" id="results-section">
+            <div class="result-card sith-card">
+                <div class="card-header">
+                    <h2 class="card-title">💢 Sith Roasts</h2>
+                    <div class="sith-lightning"></div>
+                </div>
+                <div class="card-content">
+                    <p id="sith-result" class="result-text">Your prompt's weakness will be revealed...</p>
+                </div>
+            </div>
+
+            <div class="result-card jedi-card">
+                <div class="card-header">
+                    <h2 class="card-title">🌟 Jedi Wisdom</h2>
+                    <div class="jedi-glow"></div>
+                </div>
+                <div class="card-content">
+                    <p id="jedi-result" class="result-text">The Force will guide you to better prompts...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="hyperspace-container">
+                <div class="hyperspace-star"></div>
+                <div class="hyperspace-star"></div>
+                <div class="hyperspace-star"></div>
+                <div class="hyperspace-star"></div>
+                <div class="hyperspace-star"></div>
+            </div>
+            <p class="loading-text">Consulting the Force...</p>
+        </div>
+    </main>
+
+    <!-- Order 66 Easter Egg -->
+    <div class="order66-overlay" id="order66-overlay">
+        <div class="order66-content">
+            <div class="emperor-quote">
+                <p>"Execute Order 66"</p>
+                <p class="emperor-signature">- Emperor Palpatine</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="lightsaber-sound" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/lightsaber-on.wav" type="audio/wav">
+    </audio>
+    
+    <audio id="imperial-march" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/imperial-march.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="force-sound" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/force-push.wav" type="audio/wav">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
