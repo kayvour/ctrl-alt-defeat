@@ -29,9 +29,6 @@ Ctrl-Alt-Defeat showcases the power of AI-driven development by demonstrating ho
 - Express.js
 - RESTful API architecture
 
-**Database:**
-- [Database technology used]
-
 **Development:**
 - AI-powered code generation
 - Prompt engineering techniques
@@ -94,7 +91,60 @@ Ctrl-Alt-Defeat showcases the power of AI-driven development by demonstrating ho
 
 ## 📝 Usage
 
-[Add specific usage instructions based on what the application does]
+# 🧠🔥 **Prompt Roast: The AI Therapist You Never Asked For**
+
+## 🚀 Overview
+**Prompt Roast** is a brutally honest, emotionally chaotic web app that combines the sarcasm of a roast session with the surprising depth of an AI therapy couch.
+
+Instead of just improving your prompts, this app **calls you out**, **breaks you down**, and occasionally… **heals you**.
+
+## 💡 Core Utility
+
+### 🧨 1. **AI-Powered Prompt Roast**
+- Users submit their **worst, vaguest, or most unhinged prompts**
+- The app **generates savage, creative, and often absurd insults** targeting the quality (or lack thereof) in the input
+- Roast modes include:
+  - *Mild Sass ("Bless your heart... that prompt was brave.")*
+  - *Savage Mode ("This prompt made the AI contemplate its own existence.")*
+  - *Shakespearean Shade ("Thy query be as void as a black hole's soul.")*
+
+### 🛋️ 2. **Prompt Psychoanalysis**
+- If the roast doesn’t destroy you, the AI will try to **understand you**
+- It asks *why* you wrote that prompt, *what you’re running from*, and *how your inner child feels about it*
+- Features include:
+  - 🧠 **Deep Prompt Therapy**  
+    ("Let’s unpack this—do you feel heard when you prompt?")
+  - 📖 **Journaling Mode**  
+    ("Tell me what the prompt *really* means to you.")
+  - 👶 **Inner Child Response**  
+    ("Sounds like 9-year-old you just wanted a friend.")
+
+## 🎯 Why It Exists
+
+> Prompt Roast isn’t just an app — it’s an experience.  
+> An emotional rollercoaster where you come to write prompts... and leave with existential clarity.
+
+- Challenges traditional prompt engineering by leaning into **human flaws**
+- Uses **humor and depth** to teach good prompting by showcasing bad prompting
+- Turns prompt writing into something **visceral, weirdly intimate**, and **wildly entertaining**
+
+## 🔥 Use Cases
+
+- **Hackathon stress relief** 😤
+- **Prompt-engineering gone rogue** 💻
+- **AI-enabled emotional masochism** 🥲
+- **Midnight existential breakdowns** 🌙
+
+## 👾 Future Add-Ons
+
+- Prompt leaderboards: "Top 10 Most Roasted"
+- AI Mood Selector: Therapist / Stand-up Comic / Disappointed Mom
+- Prompt Redemption Button: "OK fine, here’s a better version."
+
+---
+
+> 🧑‍⚕️ *“You don’t need better prompts. You need closure.”*
+
 
 ```bash
 # Example commands
