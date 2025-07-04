@@ -1,5 +1,9 @@
 # Prompt Side of the Force ⚔️
 
+> **📌 Note:** This project was developed entirely using AI prompting as part of the **Prompt Wars hackathon**, where participants were challenged to build full-stack applications using only natural language instructions.  
+> The codebase, UI, and functionality were generated through iterative prompt engineering with generative AI tools.  
+> ⚙️ Fully AI-generated 🔮 Prompt-driven development 🚀 Built for hackathon submission
+
 ![image](https://github.com/user-attachments/assets/9bf8a021-878a-43ba-b29b-a55992095c38)
 
 > **A full-stack Star Wars-themed web application that channels the Force to provide AI-powered responses with both Sith brutality and Jedi wisdom**
