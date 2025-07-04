@@ -4,6 +4,8 @@
 > The codebase, UI, and functionality were generated through iterative prompt engineering with generative AI tools.  
 > ⚙️ Fully AI-generated 🔮 Prompt-driven development 🚀 Built for hackathon submission
 
+Project demo: https://www.youtube.com/watch?v=7Jy_fqPmt0s
+
 ![image](https://github.com/user-attachments/assets/9bf8a021-878a-43ba-b29b-a55992095c38)
 
 > **A full-stack Star Wars-themed web application that channels the Force to provide AI-powered responses with both Sith brutality and Jedi wisdom**
