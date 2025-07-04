@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+
+# Environment secrets
+.env
+
+# OS / Editor system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Optional: Vercel + Tailwind build artifacts
+.vercel/
+dist/
+build/
