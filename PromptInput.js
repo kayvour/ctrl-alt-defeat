@@ -20,11 +20,10 @@ function PromptInput({ setResponses, onOrder66 }) {
       });
       const data = await res.json();
       setResponses(data);
-    } catch (e) {
-      console.error(e);
+    } catch {
       setResponses({
-        sith: "⚠️  Holocron error. Check the console.",
-        jedi: "Patience. The Force is debugging."
+        sith: "⚠️  Holocron error. Check console.",
+        jedi: "Patience. The Force will debug."
       });
     } finally { setLoading(false); }
   }

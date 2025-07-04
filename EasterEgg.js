@@ -10,8 +10,7 @@ function EasterEgg({ trigger }) {
     const body = document.body;
     body.classList.add("order66-active");
     new Audio("sounds/imperial_march.mp3").play();
-    const quote = emperorLines[Math.floor(Math.random()*emperorLines.length)];
-    alert(quote);
+    alert(emperorLines[Math.floor(Math.random()*emperorLines.length)]);
     setTimeout(() => body.classList.remove("order66-active"), 2200);
   }, [trigger]);
 

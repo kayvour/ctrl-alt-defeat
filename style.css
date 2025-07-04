@@ -1,4 +1,4 @@
-/* --- Global look -------------------------------------------------------- */
+/* ---------- GLOBAL ----------------------------------------------------- */
 :root {
   --sith: #ff3b3b;
   --jedi: #00eaff;
@@ -10,8 +10,9 @@ body {
   color: #e5e5e5;
 }
 
-/* --- Twinkling star‑field (pure CSS) ------------------------------------ */
-body::before, body::after {
+/* ---------- STAR‑FIELD PARALLAX --------------------------------------- */
+body::before,
+body::after {
   content: "";
   position: fixed;
   top: -50%;
@@ -30,7 +31,7 @@ body::after { animation-direction: reverse; }
   to   { transform: translate3d(50%,75%,0); }
 }
 
-/* --- Decorative lightsaber at top -------------------------------------- */
+/* ---------- LIGHTSABER BAR -------------------------------------------- */
 .lightsaber-bar {
   position: fixed;
   top: 0;
@@ -49,26 +50,32 @@ body::after { animation-direction: reverse; }
   50%     { opacity: .2; }
 }
 
-/* --- Glow helpers ------------------------------------------------------- */
+/* ---------- 3‑D & TILT ------------------------------------------------- */
+.perspective-3d { perspective: 1000px; }
+.tilt-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* ---------- EFFECT HELPERS -------------------------------------------- */
 .glow-sith { text-shadow: 0 0 8px var(--sith); }
 .glow-jedi { text-shadow: 0 0 8px var(--jedi); }
 
-/* --- Hyperspace loading ------------------------------------------------- */
 @keyframes hyperspace {
-  0% { transform: scaleX(1)   scaleY(1)  ; opacity: 1; }
- 50% { transform: scaleX(1.6) scaleY(.25); opacity: .6;}
-100% { transform: scaleX(1)   scaleY(1)  ; opacity: 1; }
+  0% { transform: scaleX(1) scaleY(1); opacity: 1;}
+ 50% { transform: scaleX(1.6) scaleY(.25); opacity:.6;}
+100% { transform: scaleX(1) scaleY(1); opacity: 1;}
 }
 .hyperspace { animation: hyperspace .9s linear infinite; }
 
-/* --- Order 66 flash ----------------------------------------------------- */
 @keyframes order66Flash {
   0%,100% { background: rgba(255,0,0,0); }
   50%     { background: rgba(255,0,0,0.55); }
 }
 .order66-active { animation: order66Flash 1s ease-in-out 2; }
 
-/* --- Scrollbar tune ----------------------------------------------------- */
+/* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background: #555; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #777; }

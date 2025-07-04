@@ -5,31 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prompt Side of the Force</title>
 
-  <!-- Tailwind CDN (fine for dev; compile for prod) -->
+  <!-- Tailwind (CDN for dev; compile for prod) -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"/>
 
-  <!-- Custom styles -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="min-h-screen flex flex-col items-center justify-center text-white overflow-x-hidden">
 
-  <!-- Decorative top lightsaber -->
+  <!-- Lightsaber bar -->
   <div class="lightsaber-bar"></div>
 
-  <div id="root"></div>
+  <!-- 3‑D perspective wrapper -->
+  <div id="scene-wrapper" class="perspective-3d">
+    <div id="root"></div>
+  </div>
 
-  <!-- React & Babel -->
+  <!-- React + Babel -->
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Scripts -->
+  <!-- Components -->
   <script src="PromptInput.js" type="text/babel"></script>
   <script src="OutputPanel.js"  type="text/babel"></script>
   <script src="EasterEgg.js"   type="text/babel"></script>
   <script src="app.js"         type="text/babel"></script>
+
+  <!-- 3‑D tilt logic -->
+  <script src="tilt.js"></script>
 </body>
 </html>
