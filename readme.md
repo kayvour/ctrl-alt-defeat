@@ -1,10 +1,11 @@
 # Prompt Side of the Force ⚔️
 
+![image](https://github.com/user-attachments/assets/9bf8a021-878a-43ba-b29b-a55992095c38)
+
 > **A full-stack Star Wars-themed web application that channels the Force to provide AI-powered responses with both Sith brutality and Jedi wisdom**
 
 Experience the eternal struggle between light and dark through AI-generated responses. Enter any prompt and witness the Force manifest as both a brutal Sith roast and enlightened Jedi guidance.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/prompt-side-of-the-force)
 
 ## 🌟 About
 
@@ -406,9 +407,8 @@ SOFTWARE.
 
 ## 📞 Contact & Support
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/your-username/prompt-side-of-the-force/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/kayvour/prompt-side-of-the-force/issues)
 - **Discussions**: [Join the community discussion](https://github.com/your-username/prompt-side-of-the-force/discussions)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
 
 ---
 
